@@ -1,22 +1,34 @@
-import React from "react";
-import Head from './Header';
-import Footer from './Footer';
-import Mid from './Mid';
-import { Button } from "@mui/material";
-function Semester22()
+import React, { useContext } from "react";
+import But from "./But";
+import { createContext } from 'react';
+import Subjects from "./subjects21sofware1stsemester";
+import { Link } from "react-router-dom";
+
+const First = createContext();
+
+
+function Semester ()
 {
-    return (
-        
+   
+     
+    return(
+
         <>
-        <Head></Head>
-       <div id="Mid">
-       <button>1st Semester</button>
-       <button>2nd Semester</button>
+     
        
-       </div>
-        <Footer></Footer>
+       
+            <Link to='/Subjects' ><But name = {"1st Semester"}></But></Link>
+            <Link to='/Subjects2' ><But name = {"2nd Semester"}></But></Link>
+            <Link to='/Subjects' ><But name = {"3rd Semester"}></But></Link>
+            <Link to='/Subjects' ><But name = {"4th Semester"}></But></Link>
+           
+
+            
+      
+
+
         </>
     )
 }
-
-export default Semester22
+export {Semester}
+export {First}

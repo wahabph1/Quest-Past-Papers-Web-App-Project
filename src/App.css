@@ -95,3 +95,17 @@ button:hover{
     height: 90px;
     border-radius: 900px;
   }
+
+  #imgdiv{
+    background-color: #004081;
+
+  }
+  #imdi{ justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+  }
+  #imdi>div{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }

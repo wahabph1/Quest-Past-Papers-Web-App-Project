@@ -2,19 +2,16 @@ import React from 'react'
 import Head from './Header';
 import Footer from './Footer';
 import Mid from './Mid';
+import { Link } from 'react-router-dom';
+import Full from './Full';
 function Semester21()
 {
     return (
         
         <>
         <Head></Head>
-       <div id="Mid">
-       <button>1st Semester</button>
-       <button>2nd Semester</button>
-       <button>3rd Semester</button>
-       <button>4th Semester</button>
-       
-       </div>
+    
+
         <Footer></Footer>
         </>
     )
