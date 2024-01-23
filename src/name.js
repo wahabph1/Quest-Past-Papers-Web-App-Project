@@ -1,14 +1,20 @@
-
-
+import piza2Image from "./dfd.jpg";
+import  ee from "./20ee.jpeg"
+import sc from "./20 sc.jpeg"
+import mad from './20 Mad.jpeg'
+import hci from './20 hci.jpeg'
+import  is from './20 is.jpeg'
+import sp from './20sp.jpeg'
 let arr = [
         
     {
         subject1:"Introduction to ICT",
+        ict:piza2Image,
         subject2:"Applied Calculus",
         subject3:"Applied Physcics",
         subject4:"Programming fundamnetals",
         subject5:"Funntional English",
-        pic :'./piza3.jpg'
+     
     },
     {
         subject1:"Object-Oriented-Programming",
@@ -36,10 +42,16 @@ let arr = [
     },
     {
         subject1:"Software Construction",
-        subject2:"Web Engineering-2",
+        ee:ee,
+        mad:mad,
+        is:is,
+        sc:sc,
+        sp:sp,
+        hci:hci,
+        subject2:"Enginnering Economics",
         subject3:"Statics & Probability",
         subject4:"Human Computer Interaction",
-        subject5:"Embedded Systems",
+        subject5:"information security",
         subject6:"Engineering Economics",  
     },
     {

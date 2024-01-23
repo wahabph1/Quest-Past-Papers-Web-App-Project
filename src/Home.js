@@ -2,6 +2,7 @@ import React from "react";
 import Head from './Header';
 import Footer from './Footer';
 import But from "./But";
+import midfinalpage from "./midfinalpage";
 import Mid from './Mid';
 import { Link } from "react-router-dom";
 import Batches from "./SoftwareBatches";
@@ -30,6 +31,7 @@ function Home ()
         <div id="Mid" >
          
         <Link to='/Batches' ><But name ={dept_name_array[0]} ></But></Link>
+      
         <Link to='/ComputerSystemEngineeringBatches ' ><But name ={dept_name_array[1]} ></But></Link>
         <Link to='/CivilEngineeringBatches'><But name ={dept_name_array[2]} ></But></Link>
         <Link to='/ChemicalEngineeringBatches'><But name ={dept_name_array[3]} ></But></Link>

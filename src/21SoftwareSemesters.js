@@ -27,6 +27,7 @@ function SoftwareSemesters21 ()
             <Link to='/Subjects2'><But name = {"2nd Semester"}></But></Link>
             <Link to='/Subjects3' ><But name = {"3rd Semester"}></But></Link>
             <Link to='/Subjects4' ><But name = {"4th Semester"}></But></Link>
+            <Link to='/Subjects4' ><But name = {"5th Semester"}></But></Link>
             </div>
            
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import piza3Image from './piza3.jpg';
+import piza3Image from './WhatsApp Image 2024-01-23 at 1.38.44 PM.jpeg';
+import piza2Image from "./facebook.png";
 import arr from './name';
 import But from './But'
 import Batches from './SoftwareBatches';
@@ -26,7 +27,7 @@ export function Subjects(props) {
       <button onClick={() => downloadImage(piza3Image)}>
         {arr[0].subject1}
       </button>
-      <button onClick={() => downloadImage(piza3Image)}>
+      <button onClick={() => downloadImage(arr[0]['ict'])}>
         {arr[0].subject2}
       </button>
       <button onClick={() => downloadImage(piza3Image)}>
@@ -262,6 +263,7 @@ export function Subjects22Semester2(props) {
 
 
 // 20 Batch Semester
+ 
 
 
 export function Subjects20Semester1(props) {
@@ -275,6 +277,7 @@ export function Subjects20Semester1(props) {
     a.click();
     document.body.removeChild(a);
   };
+
 
   return (
     <>
@@ -436,19 +439,19 @@ export function Subjects20Semester5(props) {
     <Head></Head>
     <div id='Mid' > 
       <h1>20 Batche 2 Semester</h1>
-      <button onClick={() => downloadImage(piza3Image)}>
+      <button onClick={() => downloadImage(arr[4]['sc'])}>
         {arr[4].subject1}
       </button>
-      <button onClick={() => downloadImage(piza3Image)}>
+      <button onClick={() => downloadImage(arr[4]['ee'])}>
         {arr[4].subject2}
       </button>
-      <button onClick={() => downloadImage(piza3Image)}>
+      <button onClick={() => downloadImage(arr[4]['sp'])}>
         {arr[4].subject3}
       </button>
-      <button onClick={() => downloadImage(piza3Image)}>
+      <button onClick={() => downloadImage(arr[4]['hci'])}>
         {arr[4].subject4}
       </button>
-      <button onClick={() => downloadImage(piza3Image)}>
+      <button onClick={() => downloadImage(arr[4]['is'])}>
         {arr[4].subject5}
       </button>
       </div>

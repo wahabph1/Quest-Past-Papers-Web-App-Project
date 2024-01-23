@@ -26,6 +26,7 @@ const First = createContext();
          
             <Link to='/' ><But name = {"1st Semester"}></But></Link>
             <Link to='/'><But name = {"2nd Semester"}></But></Link>
+            <Link to='/'><But name = {"3rd Semester"}></But></Link>
             </div>
             <Footer></Footer>
 
@@ -74,6 +75,7 @@ export function ComputerSystemEngineering20Semesters ()
             <Link to='/'><But name = {"4th Semester"}></But></Link>
             <Link to='/' ><But name = {"5th Semester"}></But></Link>
             <Link to='/'><But name = {"6th Semester"}></But></Link>
+            <Link to='/'><But name = {"7th Semester"}></But></Link>
             </div>
             <Footer></Footer>
 

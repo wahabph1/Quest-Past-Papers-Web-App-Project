@@ -23,6 +23,7 @@ function SoftwareSemesters22 ()
        
             <Link to='/Subjects22Semester1' ><But name = {"1st Semester"}></But></Link>
             <Link to='/Subjects22Semester2' ><But name = {"2nd Semester"}></But></Link>
+            <Link to='/Subjects22Semester2' ><But name = {"3rd Semester"}></But></Link>
             </div>
            
            

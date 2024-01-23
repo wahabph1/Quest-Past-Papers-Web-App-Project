@@ -70,6 +70,7 @@ import { EnviromentalEngineering22Semesters } from "./AllDeptSemestersList";
 import { EnergySystemEngineering20Semesters } from "./AllDeptSemestersList";
 import { EnergySystemEngineering21Semesters } from "./AllDeptSemestersList";
 import { EnergySystemEngineering22Semesters } from "./AllDeptSemestersList";
+
 function App() {
   return (
     <BrowserRouter>

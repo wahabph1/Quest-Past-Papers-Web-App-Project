@@ -19,6 +19,7 @@ function Batches() {
 
         <> <Head></Head>
             <div id="Mid" >
+                <Link to='/SoftwareSemesters23' > <But name={"23 Batch"}></But></Link>
                 <Link to='/SoftwareSemesters22' > <But name={"22 Batch"}></But></Link>
                 <Link to='/SoftwareSemesters21' > <But name={"21 Batch"}></But></Link>
                 <Link to='/SoftwareSemesters20' > <But name={"20 Batch"}></But></Link>
